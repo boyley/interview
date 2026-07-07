@@ -11,7 +11,7 @@
 | 03 | `03-concurrency.md` | 并发 | ⬜ | `../../java-learning/09-concurrency` |
 | 04 | `04-jvm.md` | JVM | ✅ | `../../jvm-learning` |
 | 05 | `05-mysql.md` | MySQL | ✅ | `../../storage-learning` |
-| 06 | `06-redis.md` | Redis | ⬜ | `../../storage-learning` |
+| 06 | `06-redis.md` | Redis | ✅ | `../../storage-learning` |
 | 07 | `07-spring.md` | Spring / Spring Boot | ⬜ | `../../spring-learning` |
 | 08 | `08-network.md` | 计算机网络 | ⬜ | — |
 | 09 | `09-os.md` | 操作系统 | ⬜ | — |

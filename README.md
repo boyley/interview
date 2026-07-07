@@ -22,7 +22,7 @@
 - ⬜ 03 并发（Concurrency）
 - ✅ 04 JVM
 - ✅ 05 MySQL
-- ⬜ 06 Redis
+- ✅ 06 Redis
 - ⬜ 07 Spring / Spring Boot
 - ⬜ 08 计算机网络
 - ⬜ 09 操作系统
