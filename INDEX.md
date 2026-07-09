@@ -28,6 +28,18 @@
   - 六、坑 & 最佳实践
   - 🔗 关联
 
+### 📄 [01-cheatsheet/03-concurrency/03-lightweight-lock.md](01-cheatsheet/03-concurrency/03-lightweight-lock.md)
+- **轻量级锁详细机制解析**
+  - 一、前置：对象头 & Mark Word
+  - 二、锁升级全景（定位轻量级锁）
+  - 三、加锁机制（★ 核心，小步骤）
+  - 四、解锁机制（小步骤）
+  - 五、为什么用轻量级锁（设计动机）
+  - 六、自旋 & 自适应自旋
+  - 七、三种锁对比
+  - 八、膨胀时机
+  - 🔗 关联
+
 ### 📄 [01-cheatsheet/04-jvm.md](01-cheatsheet/04-jvm.md)
 - **《深入拆解 Java 虚拟机》面试复习总结**
   - 一、面试高频考点速查表（按主题）
