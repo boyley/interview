@@ -11,5 +11,6 @@
 | 03 | `03-distributed-id.md` | 分布式 ID（雪花/号段/UUID） | ⬜ |
 | 04 | `04-im-push.md` | IM / 消息推送 | ⬜ |
 | 05 | `05-rate-limiter.md` | 限流（令牌桶/漏桶/滑动窗口） | ⬜ |
+| 06 | `06-high-availability.md` | 服务高可用（冗余/限流熔断降级隔离/多活） | ✅ |
 
 > 可继续追加。生成后把状态改 ✅。
