@@ -1,7 +1,7 @@
 # 📇 面试库总目录（可搜索索引）
 
-> 用法：**Ctrl/Cmd + F 搜任意标题关键词**（如缓存击穿、分布式事务、接口慢），即可定位到所在文件。
-> 本文件由脚本自动汇总所有文档标题（# 与 ##）。新增/改动文档后可重新生成。
+> 用法：**Ctrl/Cmd + F 搜任意标题关键词**（如缓存击穿、分布式事务、接口慢、雪花算法），即可定位到所在文件。
+> 本文件由 `gen-index.sh` 自动汇总所有文档标题（# 与 ##）。新增/改动文档后重跑该脚本刷新。
 
 ## 01 · 八股速答 Cheatsheet
 
@@ -184,6 +184,17 @@
   - 📌 待补排查题（占位）
 
 ## 03 · 系统设计 System Design
+
+### 📄 [03-system-design/03-distributed-id.md](03-system-design/03-distributed-id.md)
+- **03 · 分布式 ID 生成（雪花算法 Snowflake 为主）**
+  - 一、为什么需要分布式 ID？（先讲背景与要求）
+  - 二、雪花算法结构（★ 核心：64 位 long 的位拆分）
+  - 三、生成流程（小步骤）
+  - 四、优缺点
+  - 五、时钟回拨问题（★ 高频追问）
+  - 六、workerId 怎么分配？
+  - 七、替代 / 对比方案
+  - 🔗 关联
 
 ### 📄 [03-system-design/06-high-availability.md](03-system-design/06-high-availability.md)
 - **06 · 服务高可用设计实现指南（High Availability）**
