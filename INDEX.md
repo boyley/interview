@@ -18,6 +18,16 @@
   - 九、应用场景
   - 🔗 关联
 
+### 📄 [01-cheatsheet/03-concurrency/02-future.md](01-cheatsheet/03-concurrency/02-future.md)
+- **Java Future 工作机制**
+  - 一、为什么需要 Future？（解决什么）
+  - 二、核心接口 / 类（小步骤）
+  - 三、工作机制（★ 核心：FutureTask 原理）
+  - 四、Future 的局限（★ 为什么要 CompletableFuture）
+  - 五、CompletableFuture（JDK8 增强，实战主力）
+  - 六、坑 & 最佳实践
+  - 🔗 关联
+
 ### 📄 [01-cheatsheet/04-jvm.md](01-cheatsheet/04-jvm.md)
 - **《深入拆解 Java 虚拟机》面试复习总结**
   - 一、面试高频考点速查表（按主题）

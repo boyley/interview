@@ -5,5 +5,6 @@
 | 文件 | 主题 | 状态 |
 |---|---|---|
 | [01-threadlocal.md](01-threadlocal.md) | ThreadLocal（原理/内存泄漏/弱引用/TTL） | ✅ |
+| [02-future.md](02-future.md) | Future 工作机制（FutureTask/CompletableFuture） | ✅ |
 
 > 待补：线程池（7 参数/拒绝策略/线程数）、synchronized 与锁升级、AQS、volatile、CAS/原子类、AQS 与 ReentrantLock。
