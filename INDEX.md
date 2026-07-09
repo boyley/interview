@@ -155,6 +155,15 @@
   - 步骤 5 · 防大 key + 内存碎片
   - 步骤 6 · 监控 + 扩容
 
+### 📄 [01-cheatsheet/07-spring/01-ioc-startup.md](01-cheatsheet/07-spring/01-ioc-startup.md)
+- **Spring IOC 容器启动流程**
+  - 一、整体框架（两大阶段，先立骨架）
+  - 二、核心入口 `refresh()` 的关键步骤（★ 大步骤）
+  - 三、单个 Bean 的创建流程（★ 小步骤：第 11 步内部 `doCreateBean`）
+  - 四、三级缓存与循环依赖（高频追问，简述）
+  - 五、两种容器实现
+  - 🔗 关联
+
 ### 📄 [01-cheatsheet/10-distributed/01-transaction.md](01-cheatsheet/10-distributed/01-transaction.md)
 - **分布式事务解决方案**
   - 一、为什么需要分布式事务？
