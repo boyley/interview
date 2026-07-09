@@ -15,6 +15,6 @@
 | 07 | `07-spring.md` | Spring / Spring Boot | ⬜ | `../../spring-learning` |
 | 08 | `08-network.md` | 计算机网络 | ⬜ | — |
 | 09 | `09-os.md` | 操作系统 | ⬜ | — |
-| 10 | `10-distributed.md` | 分布式 / 中间件 | ⬜ | — |
+| 10 | `10-distributed.md` | 分布式 / 中间件 | ✅ | — |
 
 > 生成后把状态改 ✅。
