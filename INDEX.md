@@ -5,6 +5,19 @@
 
 ## 01 · 八股速答 Cheatsheet
 
+### 📄 [01-cheatsheet/03-concurrency/01-threadlocal.md](01-cheatsheet/03-concurrency/01-threadlocal.md)
+- **ThreadLocal 面试完全指南**
+  - 一、是什么 & 解决什么问题
+  - 二、核心 API（小步骤）
+  - 三、底层原理（★ 核心：数据到底存在哪）
+  - 四、ThreadLocalMap 细节
+  - 五、★★ 内存泄漏问题（面试必考）
+  - 六、为什么 key 要用弱引用？（高频追问）
+  - 七、经典坑 & 最佳实践
+  - 八、相关类对比
+  - 九、应用场景
+  - 🔗 关联
+
 ### 📄 [01-cheatsheet/04-jvm.md](01-cheatsheet/04-jvm.md)
 - **《深入拆解 Java 虚拟机》面试复习总结**
   - 一、面试高频考点速查表（按主题）
