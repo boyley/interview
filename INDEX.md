@@ -155,23 +155,35 @@
   - 步骤 5 · 防大 key + 内存碎片
   - 步骤 6 · 监控 + 扩容
 
-### 📄 [01-cheatsheet/10-distributed.md](01-cheatsheet/10-distributed.md)
-- **10 · 分布式 / 中间件 速答（Distributed）**
-- **🔐 分布式事务解决方案**
+### 📄 [01-cheatsheet/10-distributed/01-transaction.md](01-cheatsheet/10-distributed/01-transaction.md)
+- **分布式事务解决方案**
   - 一、为什么需要分布式事务？
   - 二、两大流派（★ 先立分类框架）
   - 三、方案逐个梳理（每个方案 = 原理 + 优缺点 + 场景）
   - 四、横向对比选型
   - 五、怎么选型（决策口诀）
   - 📎 附：2PC 深挖（高频追问）
-- **🧭 分布式系统中的一致性**
+  - 🔗 关联
+
+### 📄 [01-cheatsheet/10-distributed/02-consistency.md](01-cheatsheet/10-distributed/02-consistency.md)
+- **分布式系统中的一致性**
   - 一、先厘清"一致性"的两种语境（★ 很多人混淆）
   - 二、一致性模型（从强到弱，大步骤）
   - 三、CAP 理论（必背）
   - 四、BASE 理论（AP 的落地思想，柔性）
   - 五、如何实现一致性（大步骤 → 小步骤）
   - 六、怎么选（决策）
-  - 📌 待补知识点（占位）
+  - 🔗 关联
+
+### 📄 [01-cheatsheet/10-distributed/03-lock.md](01-cheatsheet/10-distributed/03-lock.md)
+- **分布式锁 · Redis 锁的坑 · Redlock**
+  - 一、分布式锁的基本要求（先立标准）
+  - 二、单机 Redis 分布式锁怎么做（基础）
+  - 三、Redis 实现分布式锁有哪些坑？（★ 逐个：坑 + 解决）
+  - 四、Redlock 算法（★ 针对坑 #5：多实例多数派）
+  - 五、Redlock 的争议（★ 加分：Martin vs antirez）
+  - 六、对比：Redis 锁 vs Redlock vs ZooKeeper 锁
+  - 🔗 关联
 
 ### 📄 [01-cheatsheet/11-troubleshooting.md](01-cheatsheet/11-troubleshooting.md)
 - **11 · 线上问题排查 速答（Troubleshooting）**

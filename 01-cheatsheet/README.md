@@ -15,7 +15,7 @@
 | 07 | `07-spring.md` | Spring / Spring Boot | ⬜ | `../../spring-learning` |
 | 08 | `08-network.md` | 计算机网络 | ⬜ | — |
 | 09 | `09-os.md` | 操作系统 | ⬜ | — |
-| 10 | `10-distributed.md` | 分布式 / 中间件 | ✅ | — |
+| 10 | `10-distributed/` | 分布式（事务/一致性/锁，**每主题一文件**） | ✅ | — |
 | 11 | `11-troubleshooting.md` | 线上问题排查（接口慢/CPU/OOM/GC/死锁） | ✅ | — |
 
 > 生成后把状态改 ✅。

@@ -10,11 +10,11 @@ OUT=INDEX.md
 
 gen_module() {
   dir="$1"; title="$2"
-  count=$(find "$dir" -maxdepth 1 -name "*.md" ! -name "README.md" 2>/dev/null | wc -l | tr -d ' ')
+  count=$(find "$dir" -name "*.md" ! -name "README.md" 2>/dev/null | wc -l | tr -d ' ')
   [ "$count" -eq 0 ] && return
   echo "## $title"
   echo ""
-  find "$dir" -maxdepth 1 -name "*.md" ! -name "README.md" 2>/dev/null | sort | while IFS= read -r f; do
+  find "$dir" -name "*.md" ! -name "README.md" 2>/dev/null | sort | while IFS= read -r f; do
     rel="${f#./}"
     echo "### 📄 [$rel]($rel)"
     command grep -E "^#{1,2}[[:space:]]" "$f" | while IFS= read -r line; do
