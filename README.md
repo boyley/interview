@@ -54,12 +54,12 @@
 
 ### 05 AI 应用（程序员视角）
 - ✅ 01 LLM 应用基础（Token/上下文窗口/温度/幻觉/流式/成本）
-- ⬜ 02 Prompt 工程（CoT/少样本/结构化输出/注入防护）
-- ⬜ 03 RAG 检索增强（分块/Embedding/检索/重排/评估）★重点
-- ⬜ 04 工具调用 & MCP（Function Calling/MCP 协议）
-- ⬜ 05 Agent 智能体（ReAct/编排模式/多智能体）
-- ⬜ 06 AI 工程化落地（框架选型/缓存限流/可观测/成本）
-- ⬜ 07 向量与向量库（Embedding/相似度/pgvector/HNSW）
+- ✅ 02 Prompt 工程（CoT/少样本/结构化输出/注入防护）
+- ✅ 03 RAG 检索增强（分块/Embedding/检索/重排/评估）★重点
+- ✅ 04 工具调用 & MCP（Function Calling/MCP 协议）
+- ✅ 05 Agent 智能体（ReAct/编排模式/多智能体）
+- ✅ 06 AI 工程化落地（框架选型/缓存限流/可观测/成本）
+- ✅ 07 向量与向量库（Embedding/相似度/pgvector/HNSW）
 
 ## 🎯 建议复习路线
 

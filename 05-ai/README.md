@@ -25,12 +25,12 @@
 | 编号 | 文件 | 主题 | 覆盖的高频问题 | 频率 | 状态 |
 |---|---|---|---|:--:|:--:|
 | 01 | [`01-llm-basics.md`](01-llm-basics.md) | **LLM 应用基础** | Token/上下文窗口/温度/Top-p/幻觉/流式/成本/多模态 | ⭐⭐⭐ | ✅ |
-| 02 | `02-prompt-engineering.md` | **Prompt 工程** | 零样本/少样本/CoT/角色/结构化输出/**Prompt 注入防护** | ⭐⭐⭐ | ⬜ |
-| 03 | `03-rag.md` | **RAG 检索增强**（★最重点） | 为什么要 RAG/分块 chunking/Embedding/向量检索/重排 rerank/评估/幻觉治理 | ⭐⭐⭐ | ⬜ |
-| 04 | `04-function-calling-mcp.md` | **工具调用 & MCP** | Function/Tool Calling 原理/多轮工具编排/MCP 协议是什么/客户端-服务端 | ⭐⭐⭐ | ⬜ |
-| 05 | `05-agent.md` | **Agent 智能体** | ReAct/编排模式(链/路由/并行/反思)/单 vs 多智能体/Agent 为什么不稳 | ⭐⭐ | ⬜ |
-| 06 | `06-ai-engineering.md` | **AI 工程化落地** | 框架选型(Spring AI vs LangChain4j)/缓存/限流降级/超时重试/可观测/测试/成本控制/内容审核 | ⭐⭐⭐ | ⬜ |
-| 07 | `07-vector-embedding.md` | **向量与向量库** | Embedding 原理/相似度(cos)/向量库选型(pgvector/Milvus)/HNSW/维度 | ⭐⭐ | ⬜ |
+| 02 | [`02-prompt-engineering.md`](02-prompt-engineering.md) | **Prompt 工程** | 零样本/少样本/CoT/角色/结构化输出/**Prompt 注入防护** | ⭐⭐⭐ | ✅ |
+| 03 | [`03-rag.md`](03-rag.md) | **RAG 检索增强**（★最重点） | 为什么要 RAG/分块 chunking/Embedding/向量检索/重排 rerank/评估/幻觉治理 | ⭐⭐⭐ | ✅ |
+| 04 | [`04-function-calling-mcp.md`](04-function-calling-mcp.md) | **工具调用 & MCP** | Function/Tool Calling 原理/多轮工具编排/MCP 协议是什么/客户端-服务端 | ⭐⭐⭐ | ✅ |
+| 05 | [`05-agent.md`](05-agent.md) | **Agent 智能体** | ReAct/编排模式(链/路由/并行/反思)/单 vs 多智能体/Agent 为什么不稳 | ⭐⭐ | ✅ |
+| 06 | [`06-ai-engineering.md`](06-ai-engineering.md) | **AI 工程化落地** | 框架选型(Spring AI vs LangChain4j)/缓存/限流降级/超时重试/可观测/测试/成本控制/内容审核 | ⭐⭐⭐ | ✅ |
+| 07 | [`07-vector-embedding.md`](07-vector-embedding.md) | **向量与向量库** | Embedding 原理/相似度(cos)/向量库选型(pgvector/Milvus)/HNSW/维度 | ⭐⭐ | ✅ |
 
 > 建议刷题顺序：**01 基础 → 02 Prompt → 03 RAG（重中之重）→ 04 工具/MCP → 05 Agent → 06 工程化 → 07 向量**。
 > 前 4 篇是「必答」，后 3 篇是「拉开差距」。
