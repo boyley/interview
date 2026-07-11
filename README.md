@@ -13,6 +13,7 @@
 | 02 手撕代码 | 高频算法 + 手写实现（单例/LRU/线程池…） | [02-coding](./02-coding/README.md) |
 | 03 系统设计 | 场景/系统设计题（短链/秒杀/IM…） | [03-system-design](./03-system-design/README.md) |
 | 04 项目与 HR | 项目深挖话术 + 行为/HR 面 | [04-project-hr](./04-project-hr/README.md) |
+| 05 AI 应用 | 程序员视角 AI 面试（LLM/RAG/Agent/工程化） | [05-ai](./05-ai/README.md) |
 
 ## 🗺️ 覆盖清单（进度总表）
 
@@ -50,6 +51,15 @@
 - ⬜ STAR 项目话术模板
 - ⬜ 项目深挖高频问答
 - ⬜ 行为 / HR 高频题（离职原因、职业规划、优缺点…）
+
+### 05 AI 应用（程序员视角）
+- ✅ 01 LLM 应用基础（Token/上下文窗口/温度/幻觉/流式/成本）
+- ⬜ 02 Prompt 工程（CoT/少样本/结构化输出/注入防护）
+- ⬜ 03 RAG 检索增强（分块/Embedding/检索/重排/评估）★重点
+- ⬜ 04 工具调用 & MCP（Function Calling/MCP 协议）
+- ⬜ 05 Agent 智能体（ReAct/编排模式/多智能体）
+- ⬜ 06 AI 工程化落地（框架选型/缓存限流/可观测/成本）
+- ⬜ 07 向量与向量库（Embedding/相似度/pgvector/HNSW）
 
 ## 🎯 建议复习路线
 
