@@ -31,9 +31,11 @@
 | 05 | [`05-agent.md`](05-agent.md) | **Agent 智能体** | ReAct/编排模式(链/路由/并行/反思)/单 vs 多智能体/Agent 为什么不稳 | ⭐⭐ | ✅ |
 | 06 | [`06-ai-engineering.md`](06-ai-engineering.md) | **AI 工程化落地** | 框架选型(Spring AI vs LangChain4j)/缓存/限流降级/超时重试/可观测/测试/成本控制/内容审核 | ⭐⭐⭐ | ✅ |
 | 07 | [`07-vector-embedding.md`](07-vector-embedding.md) | **向量与向量库** | Embedding 原理/相似度(cos)/向量库选型(pgvector/Milvus)/HNSW/维度 | ⭐⭐ | ✅ |
+| 08 | [`08-frameworks.md`](08-frameworks.md) | **AI 框架选型** | Spring AI vs Spring AI Alibaba vs LangChain4j：定位/设计哲学/核心 API/选型 | ⭐⭐⭐ | ✅ |
+| 09 | [`09-ai-coding.md`](09-ai-coding.md) | **AI 编程 / AI Coding** | 工具分类(Copilot/Cursor/Claude Code)/代码 RAG/Agentic 循环/风险/面试话术 | ⭐⭐ | ✅ |
 
-> 建议刷题顺序：**01 基础 → 02 Prompt → 03 RAG（重中之重）→ 04 工具/MCP → 05 Agent → 06 工程化 → 07 向量**。
-> 前 4 篇是「必答」，后 3 篇是「拉开差距」。
+> 建议刷题顺序：**01 基础 → 02 Prompt → 03 RAG（重中之重）→ 04 工具/MCP → 05 Agent → 06 工程化 → 07 向量 → 08 框架选型 → 09 AI 编程**。
+> 01~06 是「必答」，07~09 是「拉开差距 + 结合你在学的框架/工具」。
 
 ---
 

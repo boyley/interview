@@ -60,6 +60,8 @@
 - ✅ 05 Agent 智能体（ReAct/编排模式/多智能体）
 - ✅ 06 AI 工程化落地（框架选型/缓存限流/可观测/成本）
 - ✅ 07 向量与向量库（Embedding/相似度/pgvector/HNSW）
+- ✅ 08 AI 框架选型（Spring AI / Spring AI Alibaba / LangChain4j）
+- ✅ 09 AI 编程 / AI Coding（Copilot/Cursor/Claude Code、代码 RAG、话术）
 
 ## 🎯 建议复习路线
 
