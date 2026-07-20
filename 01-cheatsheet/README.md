@@ -13,7 +13,7 @@
 | 05 | `05-mysql.md` | MySQL | ✅ | `../../storage-learning` |
 | 06 | `06-redis.md` | Redis | ✅ | `../../storage-learning` |
 | 07 | `07-spring/` | Spring / Spring Boot（**每主题一文件**；已写 IOC 启动） | ✅ | `../../spring-learning` |
-| 08 | `08-network.md` | 计算机网络 | ⬜ | — |
+| 08 | `08-network.md` | 计算机网络 | ✅ | — |
 | 09 | `09-os.md` | 操作系统 | ⬜ | — |
 | 10 | `10-distributed/` | 分布式（事务/一致性/锁，**每主题一文件**） | ✅ | — |
 | 11 | `11-troubleshooting.md` | 线上问题排查（接口慢/CPU/OOM/GC/死锁） | ✅ | — |
