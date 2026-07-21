@@ -14,6 +14,7 @@
 | 03 系统设计 | 场景/系统设计题（短链/秒杀/IM…） | [03-system-design](./03-system-design/README.md) |
 | 04 项目与 HR | 项目深挖话术 + 行为/HR 面 | [04-project-hr](./04-project-hr/README.md) |
 | 05 AI 应用 | 程序员视角 AI 面试（LLM/RAG/Agent/工程化） | [05-ai](./05-ai/README.md) |
+| 06 Web3 | 程序员视角 Web3 面试（区块链/以太坊/Solidity/合约安全/DeFi） | [06-web3](./06-web3/README.md) |
 
 ## 🗺️ 覆盖清单（进度总表）
 
@@ -62,6 +63,13 @@
 - ✅ 07 向量与向量库（Embedding/相似度/pgvector/HNSW）
 - ✅ 08 AI 框架选型（Spring AI / Spring AI Alibaba / LangChain4j）
 - ✅ 09 AI 编程 / AI Coding（Copilot/Cursor/Claude Code、代码 RAG、话术）
+
+### 06 Web3 / 区块链（程序员视角）
+- ✅ 01 区块链基础（哈希/区块/默克尔树/共识 PoW·PoS/公私钥/钱包）
+- ✅ 02 以太坊核心（账户模型/Nonce/Gas·EIP-1559/EVM/L1·L2）
+- ✅ 03 Solidity 语言（storage/memory/calldata、modifier、event、fallback/receive）
+- ✅ 04 智能合约安全（重入/溢出/tx.origin/随机数/闪电贷/CEI·重入锁）★重灾区
+- ✅ 05 代币标准与 DeFi（ERC20/721/1155、AMM·恒定乘积、预言机、Gas 优化）
 
 ## 🎯 建议复习路线
 
