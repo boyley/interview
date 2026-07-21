@@ -5,6 +5,18 @@
 
 ## 01 · 八股速答 Cheatsheet
 
+### 📄 [01-cheatsheet/01-java-basics.md](01-cheatsheet/01-java-basics.md)
+- **01 · Java 基础 速答（Java Basics）**
+  - 🔥 高频必背（Top 22）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [01-cheatsheet/02-collections.md](01-cheatsheet/02-collections.md)
+- **02 · 集合 速答（Collections）**
+  - 🔥 高频必背（Top 18）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
 ### 📄 [01-cheatsheet/03-concurrency/01-threadlocal.md](01-cheatsheet/03-concurrency/01-threadlocal.md)
 - **ThreadLocal 面试完全指南**
   - 一、是什么 & 解决什么问题
@@ -206,6 +218,18 @@
   - 五、两种容器实现
   - 🔗 关联
 
+### 📄 [01-cheatsheet/08-network.md](01-cheatsheet/08-network.md)
+- **08 · 计算机网络 速答（Computer Network）**
+  - 🔥 高频必背（Top 20）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [01-cheatsheet/09-os.md](01-cheatsheet/09-os.md)
+- **09 · 操作系统 速答（Operating System）**
+  - 🔥 高频必背（Top 18）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
 ### 📄 [01-cheatsheet/10-distributed/01-transaction.md](01-cheatsheet/10-distributed/01-transaction.md)
 - **分布式事务解决方案**
   - 一、为什么需要分布式事务？
@@ -246,7 +270,123 @@
   - 五、高频根因 TOP + 对应优化
   - 📌 待补排查题（占位）
 
+## 02 · 手撕代码 Coding
+
+### 📄 [02-coding/01-singleton.md](02-coding/01-singleton.md)
+- **01 · 手写单例（Singleton）**
+  - 题目
+  - 思路
+  - 代码（Java）
+  - 易错点 / 追问
+
+### 📄 [02-coding/02-lru-cache.md](02-coding/02-lru-cache.md)
+- **02 · LRU Cache（最近最少使用缓存）**
+  - 题目
+  - 思路
+  - 方式一：基于 LinkedHashMap（最简，几行）
+  - ★ 方式二：手写 HashMap + 双向链表（重点，能默写）
+  - 易错点 / 追问
+
+### 📄 [02-coding/03-thread-pool.md](02-coding/03-thread-pool.md)
+- **03 · 手写线程池（Thread Pool）**
+  - 题目
+  - 思路
+  - 代码（Java）
+  - 对照 JDK：ThreadPoolExecutor 七大参数
+  - 易错点 / 追问
+
+### 📄 [02-coding/04-producer-consumer.md](02-coding/04-producer-consumer.md)
+- **04 · 生产者消费者（Producer-Consumer）**
+  - 题目
+  - 思路
+  - 代码（Java）
+  - 易错点 / 追问
+
+### 📄 [02-coding/05-blocking-queue.md](02-coding/05-blocking-queue.md)
+- **05 · 手写阻塞队列（Blocking Queue）**
+  - 题目
+  - 思路
+  - 代码（Java）
+  - JDK 里的两种实现对比
+  - 易错点 / 追问
+
+### 📄 [02-coding/06-linkedlist.md](02-coding/06-linkedlist.md)
+- **06 · 链表高频题（Linked List）**
+  - ★ 反转链表（Reverse Linked List）—— 最高频
+  - 判断链表有环（Linked List Cycle）+ 找环入口
+  - 合并两个有序链表（Merge Two Sorted Lists）
+  - K 个一组翻转链表（Reverse Nodes in k-Group）—— 较难 🔴
+  - 找链表中点（Middle of the Linked List）
+  - 相交链表（Intersection of Two Linked Lists）
+  - 删除倒数第 N 个节点（Remove Nth Node From End）
+  - 易错点 / 追问
+
+### 📄 [02-coding/07-binary-tree.md](02-coding/07-binary-tree.md)
+- **07 · 二叉树高频题（Binary Tree）**
+  - 统一定义
+  - 一、三种遍历（前序 / 中序 / 后序）
+  - 二、层序遍历 BFS（★ 高频，按层输出）
+  - 三、最大深度 / 最小深度（递归）
+  - 四、翻转二叉树（递归）
+  - 五、最近公共祖先 LCA（★ 重点，递归）
+  - 六、判断平衡二叉树（自底向上 + 剪枝）
+  - 七、对称二叉树（递归）
+  - 八、验证二叉搜索树 BST（★ 两种法：上下界 / 中序）
+  - 易错点 / 追问速查
+
+### 📄 [02-coding/08-sort.md](02-coding/08-sort.md)
+- **08 · 排序与 TopK（Sorting & TopK）**
+  - 题目
+  - 思路
+  - ★ 快速排序（重点，能默写）
+  - 归并排序（稳定，需 O(n) 空间）
+  - 堆排序（原地，不稳定）
+  - ★ TopK 问题（重点，高频）
+  - 排序算法对照表
+  - 易错点 / 追问
+
+### 📄 [02-coding/09-hot-leetcode.md](02-coding/09-hot-leetcode.md)
+- **09 · 高频 LeetCode 精选（Hot Problems）**
+  - 📋 速览（考点归类）
+  - 1. 两数之和（Two Sum）· 哈希
+  - 2. ★ 无重复字符的最长子串（Longest Substring Without Repeating）· 滑动窗口
+  - 3. 三数之和（3Sum）· 排序 + 双指针
+  - 4. 接雨水（Trapping Rain Water）· 双指针 / 单调栈
+  - 5. 最长回文子串（Longest Palindromic Substring）· 中心扩展
+  - 6. 合并区间（Merge Intervals）· 排序 + 遍历
+  - 7. 有效的括号（Valid Parentheses）· 栈
+  - 8. 爬楼梯 / 斐波那契（Climbing Stairs）· DP 滚动变量
+  - 9. 二分查找（Binary Search）· 二分模板
+  - ✅ 复习检查清单
+
 ## 03 · 系统设计 System Design
+
+### 📄 [03-system-design/01-short-url.md](03-system-design/01-short-url.md)
+- **01 · 短链系统（Short URL）**
+  - 一、需求澄清（先问清楚再动手）
+  - 二、容量估算（Capacity Estimation）
+  - 三、★ 核心：短码生成方案（重点对比）
+  - 四、存储设计
+  - 五、跳转流程（时序图）
+  - 六、难点与权衡（面试深挖点）
+  - 七、高并发设计（读多写少的重点）
+  - 八、演进路线（Evolution）
+  - 🔗 关联
+
+### 📄 [03-system-design/02-seckill.md](03-system-design/02-seckill.md)
+- **02 · 秒杀系统（Seckill / Flash Sale）**
+  - 一、什么是秒杀？特点是什么？
+  - 二、核心难点（先搞清"难在哪"）
+  - 三、★ 分层削峰（重点：漏斗式层层过滤）
+- **网关粗粒度限流示例（Nginx）**
+  - 四、★ 防超卖（重点：多方案，面试必问）
+  - 五、异步下单流程（Redis 扣成功 → MQ → 落库 → 通知）
+  - 六、数据一致性（Redis 与 DB 最终一致）
+  - 七、防刷 / 防作弊（防黄牛、防脚本）
+  - 八、架构演进 / 优化
+  - 九、整体架构图 + 下单时序图
+  - 十、小结（面试一句话答法）
+  - 🔗 关联
 
 ### 📄 [03-system-design/03-distributed-id.md](03-system-design/03-distributed-id.md)
 - **03 · 分布式 ID 生成（雪花算法 Snowflake 为主）**
@@ -257,6 +397,34 @@
   - 五、时钟回拨问题（★ 高频追问）
   - 六、workerId 怎么分配？
   - 七、替代 / 对比方案
+  - 🔗 关联
+
+### 📄 [03-system-design/04-im-push.md](03-system-design/04-im-push.md)
+- **04 · IM 即时通讯 / 消息推送（IM & Push）**
+  - 一、需求澄清（先问清「做什么」）
+  - 二、总体架构（分层）
+  - 三、★ 长连接（重点：为什么、怎么保活、怎么找人）
+  - 四、★ 消息流转（核心：一条消息怎么从 A 到 B）
+  - 五、消息可靠性（不丢 / 不重 / 有序，面试高频）
+  - 六、群聊：写扩散 vs 读扩散（推 vs 拉）
+  - 七、在线状态与路由（水平扩展）
+  - 八、存储设计
+  - 九、推送（离线走第三方通道）
+  - 十、难点与权衡（★ 加分项）
+  - 十一、小结
+  - 🔗 关联
+
+### 📄 [03-system-design/05-rate-limiter.md](03-system-design/05-rate-limiter.md)
+- **05 · 限流系统（Rate Limiter）**
+  - 一、为什么要限流？
+  - 二、★ 四种核心限流算法（重点）
+  - 三、★ 单机限流 vs 分布式限流（重点）
+- **Nginx 接入层限流：每 IP 10r/s，允许 burst 20（令牌桶思想）**
+  - 四、限流维度
+  - 五、超限了怎么处理？
+  - 六、限流 vs 熔断 vs 降级（区别与配合）
+  - 七、框架与技术选型
+  - 八、面试速答模板
   - 🔗 关联
 
 ### 📄 [03-system-design/06-high-availability.md](03-system-design/06-high-availability.md)
@@ -294,4 +462,52 @@
   - 七、退款同样要幂等
   - 🗺️ 一笔安全支付的链路
   - 🔗 关联
+
+## 04 · 项目 & HR
+
+### 📄 [04-project-hr/01-star-template.md](04-project-hr/01-star-template.md)
+- **01 · STAR 项目话术模板（STAR Method）**
+  - 🎯 一、STAR 是什么
+  - ⭐ 二、一个完整 STAR 示例（订单系统性能优化）
+  - 💡 三、如何把普通 CRUD 讲出技术含量
+  - ⚠️ 四、常见坑（踩一个掉一档）
+  - ✅ 五、准备清单（面试前必做）
+  - 📝 六、一页话术骨架模板（套用填空）
+
+### 📄 [04-project-hr/02-project-deep-dive.md](04-project-hr/02-project-deep-dive.md)
+- **02 · 项目深挖高频问答（Project Deep Dive）**
+  - 🎯 一句话心法
+  - 🔥 高频深挖问题 · 速查表
+  - 1️⃣ "你这个项目难点在哪？"
+  - 2️⃣ "为什么这么设计 / 为什么选 X 不选 Y？"
+  - 3️⃣ "遇到过什么线上问题？怎么排查的？"
+  - 4️⃣ "你负责哪部分？"
+  - 5️⃣ "QPS / 数据量多少？怎么扛的？"
+  - 6️⃣ "如果流量涨 10 倍怎么办？"
+  - 7️⃣ "项目还有什么可以优化的？"
+  - ⚠️ 反例警示总集（深挖翻车四大死法）
+  - ✅ 面试前准备清单（每个项目都过一遍）
+
+### 📄 [04-project-hr/03-hr-questions.md](04-project-hr/03-hr-questions.md)
+- **03 · 行为与 HR 高频题（Behavioral & HR）**
+  - 🎯 三条铁律（先记这个）
+  - 1. 为什么离职？（最高频，必被问）
+  - 2. 你的优缺点？
+  - 3. 你的职业规划？
+  - 4. 期望薪资？（谈薪，别乱报）
+  - 5. 你还有什么问题问我？
+  - 6. 能接受加班吗？
+  - 7. 为什么选我们公司？（考功课）
+  - 8. 简短话术合集
+  - 9. 压力面应对
+  - ✅ 面试前检查清单
+
+### 📄 [04-project-hr/04-reverse-questions.md](04-project-hr/04-reverse-questions.md)
+- **04 · 反问面试官的加分问题（Reverse Questions）**
+  - 🔥 为什么反问很重要
+  - 📌 ★ 按面试轮次分类（重点）
+  - ✅ 加分反问示例（体现上进 + 契合）
+  - ⚠️ 别问的雷区
+  - 🎬 收尾话术（表达兴趣 + 问流程）
+  - 🧾 面前快速检查清单
 
