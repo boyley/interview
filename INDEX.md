@@ -511,3 +511,98 @@
   - 🎬 收尾话术（表达兴趣 + 问流程）
   - 🧾 面前快速检查清单
 
+## 05 · AI 应用（程序员视角）
+
+### 📄 [05-ai/01-llm-basics.md](05-ai/01-llm-basics.md)
+- **01 · LLM 应用基础 速答（LLM Basics for Developers）**
+  - 🔥 高频必背（Top 15）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/02-prompt-engineering.md](05-ai/02-prompt-engineering.md)
+- **02 · Prompt 工程 速答（Prompt Engineering）**
+  - 🔥 高频必背（Top 14）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/03-rag.md](05-ai/03-rag.md)
+- **03 · RAG 检索增强 速答（Retrieval-Augmented Generation）**
+  - 🔥 高频必背（Top 16）
+  - 🔄 RAG 全流程（必画）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/04-function-calling-mcp.md](05-ai/04-function-calling-mcp.md)
+- **04 · 工具调用 & MCP 速答（Function Calling & MCP）**
+  - 🔥 高频必背（Top 14）
+  - 🔄 Function Calling 工作流程（必画）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/05-agent.md](05-ai/05-agent.md)
+- **05 · Agent 智能体 速答（AI Agents）**
+  - 🔥 高频必背（Top 14）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/06-ai-engineering.md](05-ai/06-ai-engineering.md)
+- **06 · AI 工程化落地 速答（AI Engineering）**
+  - 🔥 高频必背（Top 16）
+  - 🧩 五大工程挑战 × 治理手段（必画一张对照表）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/07-vector-embedding.md](05-ai/07-vector-embedding.md)
+- **07 · 向量与向量库 速答（Embedding & Vector Store）**
+  - 🔥 高频必背（Top 14）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/08-frameworks.md](05-ai/08-frameworks.md)
+- **08 · AI 框架选型面试（Spring AI / Alibaba / LangChain4j）**
+  - 🔥 高频必背（Top 14）
+  - 🧭 三框架定位对照（一张表看懂）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [05-ai/09-ai-coding.md](05-ai/09-ai-coding.md)
+- **09 · AI 编程 / AI Coding 面试（AI-Assisted Coding）**
+  - 🔥 高频必背（Top 15）
+  - 🧰 主流工具对照
+  - 🔄 Agentic Coding 的工作循环
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+## 06 · Web3 / 区块链（程序员视角）
+
+### 📄 [06-web3/01-blockchain-basics.md](06-web3/01-blockchain-basics.md)
+- **01 · 区块链基础 速答（Blockchain Basics）**
+  - 🔥 高频必背（Top 12）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [06-web3/02-ethereum.md](06-web3/02-ethereum.md)
+- **02 · 以太坊核心 速答（Ethereum）**
+  - 🔥 高频必背（Top 6）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [06-web3/03-solidity.md](06-web3/03-solidity.md)
+- **03 · Solidity 语言 速答（Solidity）**
+  - 🔥 高频必背（Top 8）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [06-web3/04-smart-contract-security.md](06-web3/04-smart-contract-security.md)
+- **04 · 智能合约安全 速答（Smart Contract Security）**
+  - 🔥 高频必背（漏洞清单 + 一句话原理 + 防御）
+  - 📌 展开速答（重点漏洞详解）
+  - ✅ 安全最佳实践清单（可当收尾话术背）
+  - ⚠️ 易错 / 反问加分
+
+### 📄 [06-web3/05-token-defi.md](06-web3/05-token-defi.md)
+- **05 · 代币标准与 DeFi 速答（Token Standards & DeFi）**
+  - 🔥 高频必背（Top 10）
+  - 📌 展开速答
+  - ⚠️ 易错 / 反问加分
+

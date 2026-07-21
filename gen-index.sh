@@ -40,6 +40,8 @@ gen_module() {
   gen_module "./02-coding"         "02 · 手撕代码 Coding"
   gen_module "./03-system-design"  "03 · 系统设计 System Design"
   gen_module "./04-project-hr"     "04 · 项目 & HR"
+  gen_module "./05-ai"             "05 · AI 应用（程序员视角）"
+  gen_module "./06-web3"           "06 · Web3 / 区块链（程序员视角）"
 } > "$OUT"
 
 echo "✅ 已生成 $OUT（$(wc -l < "$OUT" | tr -d ' ') 行，$(command grep -cE '^### 📄' "$OUT") 个文件）"
